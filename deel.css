@@ -6,18 +6,73 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 /* overflow-x: hidden; */
 }
 
+ .ler {
+      padding: 20px;
+      font-size: 20px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+    }
+
+    .splide__list {
+      display: flex;
+      gap: 30px;
+      overflow: visible;
+    }
+    
+
+    .splide__arrows {
+      display: none;
+    }
+
+    .lerry {
+      background-color: #ffe27c;
+    }
+
+    .lerry1 {
+      background-color: #c7e2fe;
+    }
+
+    .lerry2 {
+      background-color: #c4b1f9;
+    }
+    .aoq > small {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .my-carousel-progress {
+      background-color: #fef4e3;
+    }
+
+    .my-carousel-progress-bar {
+      background-color: #8e8c88;
+      height: 4px;
+      transition: width 400ms ease;
+      width: 30%;
+      position: absolute;
+      top: 70%;
+      margin: 20px 70px;
+      visibility: visible !important;
+    }
+
+    .splide__pagination__page {
+      display: none !important}
+
 .navb{
 position: fixed;
  z-index: 11; 
 width: 100%;
-top: 0%;}
+top: 0%;
+}
+
 
 .nav2{
 display: flex;
 justify-content: center;
 gap: 65px;
 padding: 15px 0px;
-background-color:#201148 ;}
+background-color:#201148 ;
+}
 
 .nav2>div{
 display: flex;
@@ -249,6 +304,7 @@ padding: 20px 60px;}
 
 .box1i{
 width: 100%;}
+.ps{font-size: 13px;}
 
 .box1s{
 margin-bottom: 70px;}
@@ -447,8 +503,10 @@ flex-direction: column;}
 .divxiii{flex-direction: column;}
 .scxiv{padding: 50px 25px;}
 .il{width: 499px;}
-.bl{right: 32% ;}}
-
+.bl{right: 32% ;}
+.sc2d{margin-top: 70px;}
+.ler{font-size: 16px;}
+}
 
 @media screen and (max-width:425px){
 .ikr>div>h1{font-size: 25px;}
@@ -505,7 +563,7 @@ width: 369px;}
 .ty{font-size: 35px;}
 .div22{flex-direction: column;}
 .div23>img{margin-top: 59px;}
-.div6{padding: 51px 33px;}
+.div6{padding:33px;}
 .divx1{
 gap: 0px;
 width: 292px;
@@ -515,4 +573,8 @@ width: 292px;
 .boxxi{width: 278px;}
 .divxiii {padding-left: 20px;}
 .il{width: 273px ;}
+.ler{max-width: 270px !important;}
+.aoq>p{font-size:14px ;}
+.ps{font-size: 9px;}
+
 }
